@@ -1,0 +1,169 @@
+
+button
+{
+   padding-left: 20px;
+   padding-right: 20px;
+   border: 2px solid rgb(0, 255, 195);
+   color:black;
+}
+.C
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 150px;
+    margin-left: 45%
+}
+button:hover
+{
+    background-color:rgb(179, 210, 237);
+}
+.B img{
+    padding-left: 17%;
+    padding-right: 17%;
+}
+body
+{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div>div>img
+{
+   height: 20px;
+   width: 20px;
+}
+.A
+{ width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+  margin-right: 2px;
+}
+.eight{
+   margin-bottom: 0px;
+}
+.B
+{
+    display:block;
+    padding-top: 50px;
+    background-color: #EEF5FF;
+    height: 300px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.two{
+    margin: 0px;
+}
+div>div{
+    padding: 15px; ;
+}
+.one:hover
+{
+    background-color: #dfd7d0;
+}
+.h
+{
+    display: flex;
+    flex-direction: row;
+    background-color:#fffbf8;
+    justify-content: space-around;
+}
+@media(max-width:400px)
+{
+    .B{
+        display: inline;
+    }
+}
+.D
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+.gi {
+    margin-top: 100px;
+    margin-left: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.F
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    color:rgb(174, 174, 174);
+}
+.F >.AAA:hover{
+color: aqua;
+text-decoration: underline;
+}
+.BBB
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #E9F6FF;
+    margin-bottom: 150px;
+}
+.CCC
+{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    background-color: #F5EEE6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+.DDD
+{
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;margin-bottom: 150px;
+}
+.EEE img{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.EEE
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+td
+{
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+table
+{
+    width: 100%;
+}
+td{
+    color: #757371;
+}
+th
+{
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+td:hover{
+    background-color: rgb(101, 102, 103);
+}
+.FFF
+{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
